@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "description": "Asset tracker snap for metamask",
+  "proposedName": "Asset tracker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+  },
+  "source": {
+    "shasum": "RsCaPh0ErZvzkeU4GnGNv3klYkj/G5Fm0VjqjC1PhB4=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "iconPath": "images/icons8-search.svg",
+        "packageName": "metamask-asset-tracker-snap-pooriagg",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "endowment:transaction-insight": {
+      "allowTransactionOrigin": true
+    }
+  },
+  "manifestVersion": "0.1"
+}
